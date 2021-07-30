@@ -63,7 +63,9 @@
       $(".form-register").change(function() {
           $(this).closest('p').addClass("active", this.checked);
       });
-      
+      $(".form-register").on('click', 'p', function() {
+        $(this).closest('p').toggleClass('active', this.checked);
+    });
       $(".form-register").on('click', 'input:checkbox', function() {
           $(this).closest('p').toggleClass('active', this.checked);
       });
@@ -85,11 +87,12 @@
       $('.check input:checkbox:checked').closest('div').addClass('active');
 
       $('.circle.minus').click(function () {
-          if (parseInt($('input[name="amount_order"]').val()) > 1) {
-              $('input[name="amount_order"]').val(parseInt($('input[name="amount_order"]').val()) - 1);
-              displayCombo();
-          }
-      });
+        if (parseInt($('input[name="amount_order"]').val()) > 1) {
+            $('input[name="amount_order"]').val(parseInt($('input[name="amount_order"]').val()) - 1);
+            displayCombo();
+        }
+        });
+   
 
       $('.circle.plus').click(function () {
           $('input[name="amount_order"]').val(parseInt($('input[name="amount_order"]').val()) + 1);

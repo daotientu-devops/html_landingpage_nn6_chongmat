@@ -62,11 +62,21 @@
 .main .container .main-slider .owl-carousel .owl-item img {
   max-height: 450px;
 }
-.main .container .main-slider .owl-nav {
+.row-1 .main-slider .owl-nav {
+  float: left;
+  position: absolute;
+  width: 40%;
+  padding-left: 32%;
+  margin-top: -50px;
+}
+.row-2 .main-slider .owl-nav {
   float: right;
   position: absolute;
   bottom: 20px;
-  right: 20px;
+  width: 40%;
+  margin-top: -51px;
+  padding-left: 32%;
+  right: 0;
 }
 .main .container .main-slider .owl-nav button.owl-prev {
   background: url("../media/img/icon-left.png");
@@ -136,6 +146,7 @@
   background-size: cover;
   font-size: 31px;
   font-family: Myriad Pro Condensed;
+  color: #0A1C5F;
 }
 .main .container .row-1-2-3 {
   background: url("../media/img/banner-main.png");
@@ -194,7 +205,7 @@
 }
 .main .container .row-4 .icon-right img {
   position: absolute;
-  right: 23%;
+  right: 13%;
   margin-top: -56px;
   position: absolute;
 }
@@ -207,12 +218,12 @@
   font-family: Myriad Pro Condensed;
 }
 .main .container .row-5 .form-register-title {
-  background: #0A1C5F;
+  background: #0A1C5F !important;
   text-align: center;
   padding: 10px 0;
   font-size: 36px;
   margin-bottom: 0;
-  color: #FFB400;
+  color: #FFB400 !important;
   font-weight: bold;
   line-height: 1.2;
 }
@@ -238,10 +249,22 @@
   width: 90%;
   margin-top: 5px;
 }
-.main .container .row-5 .form-register .content p label.active {
+.main .container .row-5 .form-register .content p.active label {
   color: #0A1C5F;
   font-weight: bold !important;
   font-family: Myriad Pro Condensed;
+}
+.main .container .row-5 .form-register .content p.active input[type=checkbox]{
+  -webkit-appearance: none;
+  width: 29px;
+  height: 29px;
+  vertical-align: middle;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../media/img/checked.png");
+  float: right;
+  margin-top: 10px;
 }
 .main .container .row-5 .form-register .content p input[type=checkbox] {
   -webkit-appearance: none;
@@ -729,6 +752,9 @@
   background-image: url("../media/img/banner-11.png");
   width: 100%;
 }
+.main .container .row-11 .f-73{
+  text-transform: uppercase;
+}
 .main .container .row-11 .container .col-xl-4 .box {
   padding: 20px;
   background-color: #0A1C5F;
@@ -782,6 +808,7 @@
 }
 .main .container .row-12 .container h2 span {
   text-transform: uppercase;
+  font-weight: bold;
 }
 .main .container .row-12 .container .row .user {
   margin: 0 auto;
@@ -859,6 +886,8 @@
   font-size: 27px;
   position: relative;
   border-right: 1px solid #2E3191;
+  border-left: none;
+  
   padding: 0 0 20px 0;
   border-bottom: 1px solid #2E3191;
 }
@@ -867,7 +896,7 @@
 }
 .main .container .row-12 .container .row:nth-child(odd) .user-content .author img {
   position: absolute;
-  right: 0;
+  right: 8px;
   bottom: 10px;
 }
 .main .container .rơw-13 h2 {
@@ -879,6 +908,7 @@
 .main .container .rơw-13 h2 span {
   color: #FFB400;
   font-family: "Myriad Pro Bold";
+  text-transform: uppercase;
 }
 .main .container .rơw-13 .container {
   background: url("../media/img/banner-main.png");
@@ -953,6 +983,10 @@
   background: #fff;
   border: 1px solid #fff;
 }
+.main .container .rơw-13 .container .row .circle:hover{
+  color: #0A1C5F !important;
+  cursor: pointer;
+}
 .main .container .rơw-13 .container .row #amount_order {
   width: 90px;
   border-radius: 0 !important;
@@ -991,7 +1025,7 @@
 .main .container .author {
   font-size: 18px;
   border-left: 1px solid #2E3191;
-  border-right: none !important;
+  border-right: none;
   padding: 0 0 20px 0;
   border-bottom: 1px solid #2E3191;
 }
@@ -1064,7 +1098,7 @@
 }
 .header-banner-main-detail-description .btn-yell {
   font-size: 48px;
-  padding: 10px 30px;
+  padding: 10px 46px;
   background: #FFB400;
   color: #0A1C5F;
   height: 54px;
@@ -1072,6 +1106,8 @@
   text-transform: uppercase;
   position: absolute;
   font-family: SVN-Gilroy Bold;
+  margin-left: 32px;
+  letter-spacing: 3px;
 }
 .header-banner-main-detail-description .btn-white {
   font-size: 57px;
@@ -1079,6 +1115,7 @@
   position: absolute;
   font-family: "Myriad Pro Condensed";
   padding-top: 60px;
+  padding-left: 34px;
 }
 .header-menu {
   height: 70px;
@@ -1855,7 +1892,7 @@ button:hover{
   }
   .header-banner-main-detail-description .btn-white{
     margin-top: 50px;
-    margin-left: 61px;
+    margin-left: -6px;
   }
   .hs img{
     width: 70%;
@@ -1914,6 +1951,9 @@ button:hover{
   }
   .form-header input{
     padding-top: 8px !important;
+  }
+  .main .container .row-4 .icon-right img {
+    right: 23%;
   }
  
 }

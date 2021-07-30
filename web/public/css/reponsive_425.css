@@ -1,14 +1,5 @@
 /* @media only screen and (min-width: 375px) and (max-width: 424px) { */
-  /* $res_992 : "only screen and (min-width: 992px) and (max-width: 1023px)";
-$res_1024 : "only screen and (min-width: 1024px) and (max-width: 1999px)";
-$res_1200 : "only screen and (min-width: 1200px)";
-
-$res_768 : "only screen and (min-width: 768px) and (max-width: 991px)";
-$res_425 : "only screen and (min-width: 425px) and (max-width: 767px)";
-
-$res_375 : "only screen and (min-width: 375px) and (max-width: 424px)";
-$res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
-@media only screen and (min-width: 375px) and (max-width: 424px) {
+@media only screen and (min-width: 425px) and (max-width: 767px) {
     .header-mobile .logo {
       max-width: 60%;
       margin: 0 auto;
@@ -17,7 +8,6 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .header-mobile .logo img {
       width: 100%;
     }
-
     .header-banner {
       background: url("../media/img/banner_mb_1.png") !important;
       background-position-y: 0;
@@ -31,31 +21,24 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       height: 800px;
     }
     .header-banner-main-detail-description {
-      padding-left: 0;
-      padding-right: 0;
-      padding-top: 4%;
+      padding-top: 2%;
       text-align: right;
-      width: 100%;
       float: right;
-      padding-right: 40px;
     }
     .header-banner-main-detail-description .title-larger {
       padding: 20px 10px;
       margin-top: 0;
       font-size: 22px !important;
       white-space: normal;
-      letter-spacing: 1px;
     }
     .header-banner-main-detail-description .title-larger span {
       color: #FFB400;
       font-size: 89px;
-      margin-top: -13px;
-      margin-right: 0px;
     }
     .header-banner-main-detail-description .title-larger span.dropcap {
-        float: left;
+      float: left;
       display: block;
-      font-size: 160px;
+      font-size: 130px;
       margin-right: -3px;
     }
     .header-banner-main-detail-description .title-larger span.dropcap-larger {
@@ -66,7 +49,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       padding-left: 10px;
     }
     .header-banner-main-detail-description .btn-yell {
-      font-size: 20px;
+      font-size: 16px;
       padding: 10px 30px;
       background: #FFB400;
       color: #0A1C5F;
@@ -75,18 +58,22 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       text-transform: uppercase;
       position: absolute;
       white-space: nowrap;
-      left: 20px;
-      margin-top: 20px;
+      left: -14px;
+      letter-spacing: 0;
+      margin-top: -10px;
     }
     .header-banner-main-detail-description .btn-white {
       font-size: 28px;
       color: #ffffff;
       position: absolute;
-      left: 20px;
+      left: 93px;
       font-family: "Myriad Pro Condensed";
-      padding-top: 60px;
+      padding-top: 20px;
     }
-  
+    .main .container .row-11 .container .col-xl-4 .box p.c-blue{
+      margin-bottom: 50px;
+      font-weight: bold;
+    }
     #formDeal212 {
       font-family: SVN-Gilroy Bold;
       font-weight: bold;
@@ -105,8 +92,8 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       z-index: 9999;
     }
     #formDeal212 .check {
-      background: #0A1C5F;
-      color: #ffffff;
+      /* background: #0A1C5F;
+      color: #ffffff; */
       padding: 0px 20px;
     }
     #formDeal212 .checkbox input[type=checkbox] {
@@ -184,7 +171,13 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       width: 100%;
     }
     #formDeal212 .form-group label {
-      font-size: 18px !important;
+      font-size: 10px !important;
+      padding: 10px 20px 10px 39px !important;
+      padding-left: 60px;
+      color: #FFC600;
+      border-radius: 25px 0px 0px 25px;
+      padding: 10px 58px;
+      background: #0A1C5F;
     }
     #formDeal212 .form-group #btnDeal212 {
       border-radius: 0px;
@@ -230,6 +223,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       margin: 0 !important;
       padding: 0 !important;
     }
+  
     .main .container .main-content {
       margin-top: 0;
     }
@@ -260,10 +254,6 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       height: 100px;
       padding-left: 10px;
       padding-right: 10px;
-    }
-    .main .container .row-11 .container .col-xl-4 .box p.c-blue{
-      margin-bottom: 50px;
-      font-weight: bold;
     }
     .main .container .main-content .row p span {
       margin: 0 auto;
@@ -394,7 +384,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       font-size: 48px !important;
     }
     .main #row-7 .container .title {
-      font-size: 18px;
+      font-size: 20px;
       width: 100% !important;
       height: 112px;
     }
@@ -410,7 +400,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       width: 100%;
     }
     .main #row-8 .text {
-      font-size: 20px !important;
+      font-size: 18px !important;
       line-height: 1.4;
       text-align: left;
       padding-left: 20px;
@@ -442,7 +432,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       background-image: url("../media/img/banner-4.png");
     }
     .main #recommended .title {
-      font-size: 34px;
+      font-size: 41px;
       padding: 20px;
     }
     .main #recommended .main-slider .content-detail {
@@ -470,57 +460,51 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .main #row-10 .row .text-center {
       font-size: 38px;
     }
-    .main #row-10 .row .text.checkbox{
-      margin-left: -64px;
-    }
     .main #row-10 .row .number {
-      font-size: 22px !important;
       position: absolute;
-
     }
     .main #row-10 .row .item {
       margin: 20px;
       line-height: 30px;
     }
-    .main #row-10 .row .text {
-      padding-left: 50px;
-      font-size: 16px !important;
-      height: 31px;
-      line-height: 1.2;
-      display: flex;
-      font-weight: bold;
-      align-items: center;
-    }
     .main #row-10 .row .checkbox img{
-      width: 92% !important;
-    }
-    /* .main #row-10 .row .list_items .checkbox {
-      font-size: 22px !important;
-      width: auto !important;
-      height: 40px !important;
-      position: absolute;
-      line-height: 45px;
-    } */
-    .main #row-10 .row .list_items .text-note {
-        background: #0A1C5F;
-        color: #FFC600;
-        font-size: 8px;
-        text-align: center;
-
-    }
-    .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .right .price{
-      margin-top: 48px !important;
+      width: 92%;
     }
     .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .right .price p{
       margin-bottom: 0px;
       white-space: nowrap;
       font-size: 22px;
     }
+    .main #row-10 .row .text {
+      padding-left: 50px;
+      font-size: 20px !important;
+      line-height: 1.2;
+      height: 50px;
+    }
+    .main #row-10 .row .text.checkbox{
+      margin-left: 6px;
+    }
+    .main #row-10 .row .list_items .checkbox {
+      font-size: 22px !important;
+      width: auto !important;
+      height: 40px !important;
+      position: absolute;
+      line-height: 45px;
+    }
+    .main #row-10 .row .list_items .text-note {
+      background: #0A1C5F;
+      color: #FFC600;
+      font-size: 12px;
+      text-align: center;
+      margin-bottom: -9px;
+      margin-top: -29px;
+
+    }
     .main .row {
       margin: 0 !important;
     }
     .main .f-73 {
-      font-size: 36px !important;
+      font-size: 40px;
     }
     .main #formDeal212 .form-group {
       margin-bottom: 0px !important;
@@ -532,7 +516,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       font-size: 20px;
     }
     .main .title-f {
-      font-size: 16px;
+      font-size: 21px !important;
       height: auto !important;
     }
     .main #row-14 {
@@ -579,45 +563,21 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .main .text span.smll {
       display: none;
     }
-    .footer .container .row-14 a.footer_logo img{
-      padding: 10px!important;
+    .main .btn_note{
+      font-size: 14px !important;
     }
-    /* .main .btn_note.hide-desktop {
+    .main .btn_note.hide-desktop {
       font-size: 15px !important;
       height: 30px;
       border-radius: 30px 30px 0px 0px;
       padding: 10px 20px;
-    } */
+    }
+  
     .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .left img{
       margin-left: 0px;
-      margin-bottom: 10px;
     }
     .btn_order{
         height: 40px;
-        font-size: 20px !important;
-    }
-    .main .btn_note{
-      font-size: 13px !important;
-    }
-    .header-banner-main-detail-description .btn-white{
-      left: 17px !important;
-      font-size: 27px;
-
-    }
-    .d-mr{
-      padding-bottom: 117px;
-    }
-    .footer .container .row-14 .title-f{
-      white-space: nowrap;
-    }
-    .footer .container .row-14 .left ul{
-      line-height: 25px;
-    }
-    .footer .container .row-14 .title-f.cl-lienhe{
-      margin-top: 0px !important;
-    }
-    .footer .container .row-14 .right{
-      line-height: 1.3;
     }
     .footer .container .row-14 a.footer_logo img{
       padding: 10px 30px !important;
@@ -627,63 +587,128 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .footer .container .row-14 a.footer_logo{
       height: auto !important;
     }
-    .mobile{
+    .footer .container .row-14 .title-f{
+        white-space: nowrap;
+      }
+      .footer .container .row-14 .left ul{
+        line-height: 25px;
+      }
+      .footer .container .row-14 .title-f.cl-lienhe{
+        margin-top: 0px !important;
+      }
+      .footer .container .row-14 .right{
+        line-height: 1.3;
+      }
+    
+      .mobile{
       opacity: 0;
-    }
-    .main .container .rơw-13 .box-footer{
-      margin-top: -75px;
-    }
-    .main .container .rơw-13 .container .row .box img{
-      width: 80% !important;
-      margin-top: -24px;
-    }
-    .cs-khung{
-      width: 127px;
-      float: right;
-      margin-right: 20px;
-      height: 20px;
-      border-top: 2px solid #0A1C5F;
-      border-left: 2px solid #0A1C5F;
-    }
-    .btn_note.cs-footer{
-      border-radius: 25px 25px 0px 0px;
-      margin-bottom: 0px !important;
-      height: 37px;
-      padding-bottom: -21px;
-      padding-top: 5px;
-    }
-    .main .container .row-5 .form-register .register .row .register-phone{
-      margin-right: 0px;
-    }
-    .main .container .row-5 .form-register .register .row .register-btn .btn.btn-receive{
-      margin: 5px -5px 5px auto;
-    }
-
-  }
-  @media only screen and (min-width: 375px) and (max-width: 375px){
-    .header-banner-main-detail-description{
-      padding-right: 11px !important;
-    }
-    .header-banner-main-detail-description .title-larger{
-      font-size: 20px !important;
-    }
-    .main #anchor_form_order label{
-      font-size: 16px !important;
-    }
-    .main .container .row-4 .icon-right img{
-      margin-top: -38px;
-      bottom: unset;
-    }
-    .main .container .row-4 .icon-left{
-      position: absolute;
-      top: auto;
-      margin-top: -131px;
-    }
-    button{
-      font-size: 18px !important;
-    }
-    .main #row-10 .row .list_items .text-note{
-      font-size: 8px;
-    }
+      }
+      .main .container .rơw-13 .box-footer{
+        margin-top: -118px;
+      }
+      .main .container .rơw-13 .container .row .box img{
+        width: 80% !important;
+        margin-top: -24px;
+      }
+      .cs-khung{
+        width: 127px;
+        float: right;
+        margin-right: 20px;
+        height: 20px;
+        border-top: 2px solid #0A1C5F;
+        border-left: 2px solid #0A1C5F;
+      }
+      .btn_note.cs-footer{
+        border-radius: 25px 25px 0px 0px;
+        margin-bottom: 0px !important;
+        height: 37px;
+        padding-bottom: -21px;
+        padding-top: 5px;
+      }
+      .main .container .row-5 .form-register .register .row .register-phone{
+        margin-right: 0px;
+      }
+      .main .container .row-5 .form-register .register .row .register-btn .btn.btn-receive{
+        margin: 5px -5px 5px auto;
+      }
+      .btn_note.cs-footer{
+        border-radius: 25px 0px 0px 25px;
+      }
+      .main .container .row-5 .form-register .register .row .register-phone{
+        margin-right: 0px;
+      }
+      .main .container .row-5 .form-register .register .row .register-btn .btn.btn-receive{
+        margin: 5px -5px 5px auto;
+      }
+      .show-mobile{
+        display: block !important;
+      }
+      #form-mobile #customer_telephone{
+        margin-left: -15px !important;
+      }
+      .main .container .row-8 .container .right .form-buy div button{
+        margin-left: 22px;
+        width: 100%;
+      }
+      .main .container .row-8 .container .right .form-buy div input{
+        width: 105%;
+      }
+      #btn_now{
+        margin-left: 10px;
+        font-size: 16px !important;
+        width: 111%;
   
+      }
+      #btn_tv{
+        margin-left: 16px;
+        font-size: 16px !important;
+        width: 130%;
+      }
+      .main #row-8 #customer_telephone{
+        width: 111% !important;
+        height: 38px !important;
+        margin-top: 7px !important;
+        margin-left: 7px;
+    
+      }
+      .input-group .circle{
+        width: 20px !important;
+        margin-top: 1px !important;
+      }
+      .main .container .row-10 .container .col-xl-6 .right .text-small{
+        padding-left: 20px;
+      }
+      .main .container .row-12 .container .user-content .author{
+        margin-left: -71px !important;
+        margin-top: -212px;
+        height: 285px;
+        padding-top: 192px !important;
+        padding-left: 70px !important;
+      }
+      #formDeal212 .check{
+        /* top: -49px; */
+        position: absolute;
+        width: 100%;
+        right: 46%;
+        background: none;
+      }
+      .form-footer form .check .checkbox{
+          margin-right: 22px;
+          height: 50px;
+          position: absolute;
+      }
+      #formDeal212 {
+        height: 112px;
+        border-top: 0;
+        border-radius: 25px 25px 0px 0px;
+      }
+      #formDeal212 img.Asset_2{
+        width: 80% !important;
+        margin-top: -65px;
+        margin-left: 16px;
+      }
+      .rơw-13 .f-73{
+        font-size: 22px !important;
+      }
   }
+ 

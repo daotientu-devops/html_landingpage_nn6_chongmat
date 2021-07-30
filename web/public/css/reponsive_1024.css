@@ -9,8 +9,8 @@
   .header-banner-main-detail-description .title-larger span.dropcap{
     float: left;
     display: block;
-    font-size: 270px;
-    margin-top: -6px;
+    font-size: 242px;
+    margin-top: -19px;
   }
   .header-banner-main-detail-description .title-larger span{
     color: #FFB400;
@@ -18,20 +18,20 @@
   }
   .header-banner-main-detail-description .btn-yell{
     font-size: 35px;
-    padding: 10px 30px;
+    padding: 10px 40px;
     height: 45px;
     border-radius: 20px;
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   .header-banner-main-detail-description .btn-white{
     font-size: 45px;
     color: #ffffff;
     position: absolute;
     font-family: "Myriad Pro Condensed";
-    padding-top: 60px;
-    margin-left: 31px;
-    margin-top: 20px;
+    padding-top: 79px;
+    margin-left: 2px;
+    margin-top: 19px;
   }
   .main-title p{
     font-size: 67px;
@@ -180,4 +180,45 @@
       width:250px;
       margin-right: 5px;
   }
+  .row-1 .main-slider .owl-nav{
+    padding-left: 30%;
+  }
+  .row-2 .main-slider .owl-nav{
+    margin-right: 13px;
+  }
+}
+@media only screen and (min-width: 1200px) and (max-width: 1366px){
+  .header-banner-main-detail-description .btn-yell{
+    font-size: 48px;
+    padding: 10px 46px;
+    background: #FFB400;
+    color: #0A1C5F;
+    height: 54px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    position: absolute;
+    font-family: SVN-Gilroy Bold;
+    margin-left: 32px;
+    letter-spacing: 3px;
+  }
+
+}
+@media only screen and (min-width: 1200px) and (max-width: 1400px){
+  .header-banner-main-detail-description .btn-yell{
+    margin-top: 44px !important;
+    margin-left: 36px;
+    letter-spacing: 3px;
+  }
+  .header-banner-main-detail-description .btn-white{
+    font-size: 57px;
+    color: #ffffff;
+    position: absolute;
+    font-family: "Myriad Pro Condensed";
+    padding-top: 122px;
+    padding-left: 34px;
+  }
+  .header-banner-main-detail-description .title-larger span.dropcap{
+    margin-top: -29px;
+  }
+
 }
