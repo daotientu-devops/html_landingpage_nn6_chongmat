@@ -296,18 +296,23 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .main .container .row-4 .icon-left {
       position: absolute;
       top: -132px;
+      top: auto;
+      margin-top: -132px;
+      width: 40px !important;
     }
     .main .container .row-4 .icon-left img {
       position: relative;
-      margin-top: 68px;
+      margin-top: 69px;
       left: 10px;
       width: 35px !important;
     }
+    
     .main .container .row-4 .icon-right img{
       position: absolute;
       right: 8px;
-      bottom: -73px;
-      width: 40px !important;
+      width: 35px !important;
+      margin-top: -33px !important;
+      bottom: auto;
     }
     .main #row-4 .title {
       background: #FFB400;
@@ -503,6 +508,9 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
         text-align: center;
 
     }
+    .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .right .price{
+      margin-top: 48px !important;
+    }
     .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .right .price p{
       margin-bottom: 0px;
       white-space: nowrap;
@@ -512,7 +520,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       margin: 0 !important;
     }
     .main .f-73 {
-      font-size: 40px !important;
+      font-size: 36px !important;
     }
     .main #formDeal212 .form-group {
       margin-bottom: 0px !important;

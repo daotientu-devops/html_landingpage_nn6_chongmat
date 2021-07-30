@@ -1,4 +1,13 @@
 /* @media only screen and (min-width: 375px) and (max-width: 424px) { */
+  @media only screen and (min-width: 768px) and (max-width: 768px){
+    .header-banner-main-detail-description .btn-white{
+      left: 40% !important;
+    }
+    .header-banner-main-detail-description .btn-yell{
+      left: 40% !important;
+    }
+
+  }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .header-mobile .logo {
       max-width: 60%;
@@ -33,19 +42,19 @@
     }
     .header-banner-main-detail-description .title-larger {
       padding: 20px 10px;
-      margin-top: 0;
-      font-size: 22px !important;
+      margin-top: -77px;
+      font-size: 30px !important;
       white-space: normal;
     }
     .header-banner-main-detail-description .title-larger span {
       color: #FFB400;
-      font-size: 89px;
+      font-size: 105px;
     }
     .header-banner-main-detail-description .title-larger span.dropcap {
       float: left;
       display: block;
-      font-size: 160px;
-      margin-top: -14px;
+      font-size: 177px;
+      margin-top: -5px;
     }
     .header-banner-main-detail-description .title-larger span.dropcap-larger {
       font-size: 90px;
@@ -66,7 +75,7 @@
       white-space: nowrap;
       left: 20px;
       margin-top: 20px;
-      left:50%;
+      left:377px;
     }
     .header-banner-main-detail-description .btn-white {
       font-size: 28px;
@@ -75,7 +84,7 @@
       left: 20px;
       font-family: "Myriad Pro Condensed";
       padding-top: 60px;
-      left:50%;
+      left:377px;
     }
   
     #formDeal212 {
@@ -373,17 +382,19 @@
     }
     .main #row-7 {
       font-size: 20px !important;
+      padding-bottom: 20px;
     }
     .main #row-7 .container .row {
       margin: 0;
     }
+  
     .main #row-7 .container .title-lar {
       font-size: 48px !important;
     }
     .main #row-7 .container .title {
-      font-size: 20px;
+      font-size: 18px;
       width: 100% !important;
-      height: 112px;
+      height: auto;
     }
     .main #row-7 .container .excerpt {
       font-size: 22px !important;
@@ -480,11 +491,23 @@
       line-height: 45px;
     }
     .main #row-10 .row .list_items .text-note {
-        background: #0A1C5F;
-        color: #FFC600;
-        font-size: 12px;
-        text-align: center;
+      background: #0A1C5F;
+      color: #FFC600;
+      font-size: 11px;
+      text-align: center;
+      margin-top: 72px;
+      margin-left: 89px;
 
+    }
+    .main .container .row-11 .container .col-xl-4 .box div .btn{
+      width: 100%;
+    }
+    .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .right .price{
+      margin-right: 14px;
+      padding-top: 84px;
+    }
+    .btn.btn_order{
+      width: 80%;
     }
     .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .item .text{
       margin-left: 11px;
@@ -554,7 +577,10 @@
       display: none;
     }
     .main .container .row-10 .container .col-xl-6 .right .list_items .form-buy .row .left img{
-      margin-left: 0px;
+      margin-left: 73px;
+      margin-bottom: -104px;
+      background: none;
+      width: 90% !important;
     }
     .btn_order{
         height: 40px;
@@ -596,17 +622,17 @@
     }
   
     .cs-khung{
-      width: 40%;
+      width: 226px !important;
       float: right;
       margin-right: 20px;
-      height: 33px;
+      height: 25px;
       border-top: 2px solid #0A1C5F;
       border-left: 2px solid #0A1C5F;
+      margin-top: -11px !important;
     }
     .main .container .rơw-13 .container .row .box img{
-      
       width: 80% !important;
-      margin-top: -43px;
+      margin-top: -55px !important;
 
     }
     .main .container .row-4 .icon-right img{
@@ -624,6 +650,28 @@
     }
     .align-center.hide-desktop{
       padding-top: 11px;
+    }
+    .main .container .rơw-13 .container .row .box img{
+      width: 80% !important;
+      margin-top: -24px;
+    }
+    .cs-khung{
+      width: 127px;
+      float: right;
+      margin-right: 20px;
+      height: 20px;
+      border-top: 2px solid #0A1C5F;
+      border-left: 2px solid #0A1C5F;
+    }
+    .btn_note.cs-footer{
+      border-radius: 25px 25px 0px 0px;
+      margin-bottom: 0px !important;
+      height: 37px;
+      padding-bottom: -21px;
+      padding-top: 5px;
+    }
+    .main .container .row-5 .form-register .register .row .register-phone{
+      margin-right: 0px;
     }
    
   }

@@ -105,6 +105,28 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     left: 17px !important;
     font-size: 27px;
   }
+  .main .container .row-4 .icon-left{
+    position: absolute;
+    top: auto !important;
+    margin-top: -64px;
+  }
+  .main .container .row-4 .icon-left img{
+    position: relative;
+    margin-top: -2px !important;
+    left: 10px;
+    width: 30px !important;
+  }
+  .main .container .row-4 .icon-right img{
+    position: absolute;
+    right: 8px;
+    width: 30px !important;
+    margin-top: -28px;
+  }
+  .main #row-7 .container .title{
+    font-size: 14px !important;
+    width: 100% !important;
+    height: 90px !important;
+  }
 }
 @media all and (max-width: 422px) {
     .header-mobile .logo {
@@ -398,10 +420,10 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       width: 35px !important;
     }
     .main .container .row-4 .icon-right img{
-      position: absolute;
+      /* position: absolute;
       right: 8px;
       bottom: -73px;
-      width: 40px !important;
+      width: 40px !important; */
     }
     .main #row-4 .title {
       background: #FFB400;

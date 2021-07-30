@@ -289,11 +289,23 @@
     .main .container .row-4 .icon-left {
       position: absolute;
       top: -132px;
+      top: auto;
+      margin-top: -132px;
+      width: 40px !important;
     }
     .main .container .row-4 .icon-left img {
       position: relative;
-      margin-top: 0;
+      margin-top: 69px;
       left: 10px;
+      width: 35px !important;
+    }
+    
+    .main .container .row-4 .icon-right img{
+      position: absolute;
+      right: 8px;
+      width: 35px !important;
+      margin-top: -33px !important;
+      bottom: auto;
     }
     .main #row-4 .title {
       background: #FFB400;
