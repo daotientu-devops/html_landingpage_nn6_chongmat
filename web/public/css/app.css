@@ -72,7 +72,7 @@
 .row-2 .main-slider .owl-nav {
   float: right;
   position: absolute;
-  bottom: 20px;
+  bottom: 110px;
   width: 40%;
   margin-top: -51px;
   padding-left: 32%;
@@ -139,14 +139,18 @@
   width: 39px;
   height: 39px;
 }
-.main .container .main-content .title-ul-icon ul li div {
+.main .container .main-content .title-ul-icon ul li div{
   margin-left: 15px;
   line-height: 1.2;
   background-repeat: no-repeat;
   background-size: cover;
-  font-size: 31px;
+  font-size: 27px;
   font-family: Myriad Pro Condensed;
   color: #0A1C5F;
+  font-weight: normal;
+}
+.main .container .main-content .title-ul-icon ul li div span{
+  font-size: 26px;
 }
 .main .container .row-1-2-3 {
   background: url("../media/img/banner-main.png");
@@ -170,7 +174,7 @@
   font-family: Myriad Pro Condensed;
 }
 .main .container .row-1-2-3 .row-3 div {
-  padding: 10px 90px;
+  padding: 10px 80px;
 }
 .main .container .row-1-2-3 .row-3 div span{
   font-weight: bold;
