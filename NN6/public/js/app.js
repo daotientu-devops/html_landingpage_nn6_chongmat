@@ -13,8 +13,8 @@
   $('.groupFormDeal').addClass('d-none');
   $(window).scroll(function () {
 
-      if ($('#formDeal213').length > 0) {
-          if ($(this).scrollTop() + 100 < $('#formDeal213').position().top) {
+      if ($('#form-footer-desktop').length > 0) {
+          if ($(this).scrollTop() + 100 < $('#form-footer-desktop').position().top) {
               $('#lienhe').removeClass('d-mr');
 
           } else {
@@ -23,10 +23,10 @@
       }
       if ($('#consultation').length > 0) {
         if ($(this).scrollTop() + 100 < $('#consultation').position().top) {
-            $('#formDeal213').removeClass('d-none');
+            $('#form-footer-desktop').removeClass('d-none');
 
         } else {
-            $('#formDeal213').addClass('d-none');
+            $('#form-footer-desktop').addClass('d-none');
         }
     }
       if ($('#disadvantage').length > 0) {
@@ -63,13 +63,13 @@
       $(".form-register").change(function() {
           $(this).closest('p').addClass("active", this.checked);
       });
-      $(".form-register").on('click', 'p', function() {
+      $("#form-register").on('click', 'p', function() {
         $(this).closest('p').toggleClass('active', this.checked);
     });
-      $(".form-register").on('click', 'input:checkbox', function() {
-          $(this).closest('p').toggleClass('active', this.checked);
+      $("#form-register").on('click', 'input:checkbox', function() {
+          $(this).closest('p').toggleClass('active1', this.checked);
       });
-      $('.form-register input:checkbox:checked').closest('p').addClass('active');
+    //   $('#form-register input:checkbox:checked').closest('p').addClass('active');
 
       $(".row-8").on('click', 'input:checkbox', function() {
           $(this).closest('p').toggleClass('active', this.checked);
@@ -99,7 +99,9 @@
           displayCombo();
       });
       $('.form-deal .ic_close').click(function () {
-          $('.form-deal').addClass('d-none');
+        //   $('.form-deal').addClass('d-none');
+          $('#form-footer-desktop').addClass('d-none');
+          $('#formDeal212').addClass('d-none');
       });
       
       });

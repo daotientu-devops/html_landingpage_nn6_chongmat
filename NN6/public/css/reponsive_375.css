@@ -42,15 +42,15 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .header-banner-main-detail-description .title-larger {
       padding: 20px 10px;
       margin-top: 0;
-      font-size: 22px !important;
+      font-size: 23px !important;
       white-space: normal;
       letter-spacing: 1px;
-      margin-top: -27px;
+      margin-top: -25px;
       text-align: left;
     }
     .header-banner-main-detail-description .title-larger span {
       color: #FFB400;
-      font-size: 89px;
+      font-size: 90px;
       margin-top: -13px;
       margin-right: 0px;
     }
@@ -68,8 +68,8 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       padding-left: 10px;
     }
     .header-banner-main-detail-description .btn-yell {
-      font-size: 16px;
-      padding: 10px 30px;
+      font-size: 21px;
+      padding: 10px 40px;
       background: #FFB400;
       color: #0A1C5F;
       height: 30px;
@@ -79,7 +79,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       white-space: nowrap;
       left: -14px;
       letter-spacing: 0;
-      margin-top: -10px;
+      margin-top: -9px;
     }
     .header-banner-main-detail-description .btn-white {
       font-size: 28px;
@@ -252,7 +252,12 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .main .container .main-content .title.btn-yell p {
       background: #FFB400;
       color: #0A1C5F;
-      text-transform: capitalize;
+      text-transform: initial;
+      font-weight: normal;
+    }
+    .main .container .main-content .title.btn-yell p span{
+      text-transform: uppercase;
+      font-weight: bold;
     }
     .main .container .main-content .row {
       margin: 0 !important;
@@ -384,7 +389,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       font-size: 48px !important;
     }
     .main .row-6 .container .title {
-      font-size: 22px !important;
+      font-size: 20px !important;
       width: 100% !important;
     }
     .main .row-6 .container .excerpt {
@@ -455,6 +460,11 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     .main #recommended .title {
       font-size: 34px;
       padding: 20px;
+      text-transform: capitalize;
+      
+    }
+    .main .container .row-9 .title span{
+        text-transform: uppercase;
     }
     .main #recommended .main-slider .content-detail {
       width: 80%;
@@ -482,7 +492,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       font-size: 38px;
     }
     .main #row-10 .row .text.checkbox{
-      margin-left: -64px;
+      margin-left: -73px;
     }
     .main #row-10 .row .number {
       font-size: 22px !important;
@@ -490,17 +500,18 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
 
     }
     .main #row-10 .row .item {
-      margin: 20px;
+      margin: 15px;
       line-height: 30px;
     }
     .main #row-10 .row .text {
-      padding-left: 50px;
+      padding-left: 54px;
       font-size: 16px !important;
       height: 31px;
       line-height: 1.2;
       display: flex;
       font-weight: bold;
       align-items: center;
+      padding-right: 5px;
     }
     .main #row-10 .row .checkbox img{
       width: 92% !important;
@@ -609,7 +620,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     }
     .header-banner-main-detail-description .btn-white{
       left: -16px !important;
-      font-size: 25px;
+      font-size: 26px;
 
     }
     .d-mr{
@@ -728,6 +739,12 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       height: 50px;
       position: absolute;
   }
+    .form-buy{
+        margin-top: 15px;
+    }
+    .main .container .row-10 .container .col-xl-6 .right .list_items .item{
+      height: 48px;
+    }
  
   }
   @media only screen and (min-width: 375px) and (max-width: 375px){
@@ -736,7 +753,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
     }
     .header-banner-main-detail-description .title-larger{
       font-size: 20px !important;
-      margin-top: -27px;
+      margin-top: -28px;
       text-align: left;
     }
     .main #anchor_form_order label{
@@ -830,9 +847,12 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
 	  .header-banner-main-detail-description .btn-white{
 		  margin-top:0px;
 	  }
-	  .main .f-73{
-		  
-	  }
+    .header-banner-main-detail-description .btn-yell{
+      margin-top: -10px !important;
+    }
+    #formDeal212 .price{
+      font-size: 20px;
+    }
   }
   
   @media only screen and (min-width: 414px) and (max-width: 414px) {
