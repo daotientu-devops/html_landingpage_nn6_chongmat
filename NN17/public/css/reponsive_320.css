@@ -177,7 +177,7 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
   .main .container .row-12 .container .user-content .author{
     margin-left: -71px !important;
     margin-top: -212px;
-    height: 344px !important;
+    /*height: 344px !important;*/
     padding-top: 193px !important;
     padding-left: 70px !important;
   }
@@ -243,6 +243,10 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
 
   .rơw-13 .container .row .form-order input{
     font-size: medium;
+  }
+
+  .row-12 h2.mb12{
+    font-size: xx-large !important;
   }
 
 }

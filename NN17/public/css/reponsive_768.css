@@ -28,6 +28,10 @@
       max-width: 100%; */
       max-width: 100%;
     }
+    .header-feature-mobile p{
+      font-size: xx-large;
+
+    }
     .header-banner {
       padding-top: 5%;
       /*top: 20px;

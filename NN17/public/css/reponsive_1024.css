@@ -182,8 +182,8 @@
       display: none;
   }
   .form-footer form button{
-    bottom: 12px;
-    /*right: 14%;*/
+    /*bottom: 12px;*/
+    right: 20%;
     padding-top: 3px;
   }
   .form-footer form input{

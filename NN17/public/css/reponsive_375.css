@@ -69,8 +69,11 @@ $res_320 : "only screen and (min-width: 320px) and (max-width: 374px)"; */
       text-align: center;
       color: #fff;
     }
+    .price-order p.small4, .small14{
+      font-size: small;
+    }
     .header-feature-mobile{
-    font-size: large;
+    font-size: 17px;
     line-height: 1;
   }
   .title4{

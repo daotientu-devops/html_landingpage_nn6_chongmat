@@ -683,6 +683,9 @@ font-family: Roboto Bold;
   width: 100%;
   padding: 0;
 }
+.row-9 .content img{
+  width: 100%;
+}
 .row-9 .title {
   font-size: 55px;
   text-align: center;
@@ -694,16 +697,16 @@ font-family: Roboto Bold;
 .row-9 .title span{
   font-family: Roboto Bold;
 }
-.main .container .row-9 .title span {
+.row-9 .title span {
   font-weight: bold;
 }
-.main .container .row-9 .content {
+.row-9 .content {
   display: flex;
   width: 100%;
   flex-direction: row;
   justify-content: space-between;
 }
-.main .container .row-9 .content-detail {
+.row-9 .content-detail {
   text-align: center;
   /*width: 32%;*/
   background-color: #fff;
@@ -712,10 +715,10 @@ font-family: Roboto Bold;
   padding: 10px 0;
   margin: 10px 5px;
 }
-.main .container .row-9 .content-detail img {
+.row-9 .content-detail img {
   width: 100%;
 }
-.main .container .row-9 .content-detail-title {
+.row-9 .content-detail-title {
   color: #0A1C5F;
   font-weight: bold;
   font-size: 25px;
@@ -727,11 +730,11 @@ font-family: Roboto Bold;
   display: flex;
   justify-content: center;
 }
-.main .container .row-9 .title1 {
+.row-9 .title1 {
   font-size: 31px;
   padding: 10px 20px;
 }
-.main .container .row-9 .btnMore1{
+.row-9 .btnMore1{
   background-color: #04226E;
   border: none;
   color: white;
@@ -752,7 +755,7 @@ font-family: Roboto Bold;
   border: 1px solid #FFB400;
   margin-top: 1px;
 }*/
-.main .container .row-10 .container {
+.row-10 .container {
   background: #ffffff;
 }
 .row-10 .container .back-img{
